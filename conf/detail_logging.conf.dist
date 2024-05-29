@@ -3,17 +3,16 @@
 #
 #   Detailed Logging Stat Configurations
 #
-#   enabled:    This enables individual parts of the logging system
-#   dumpSize:   How many lines of information are cached before being written to the log file.
-#               For smaller servers this can be left as a low number, but for larger servers this
-#               could cause slowdown due to constant disk writes.
+#   enabled:    启用日志系统的各个部分
+#   dumpSize:   在写入日志文件之前缓存的信息行数。
+#               对于较小的服务器，这个数值可以设置较低，但对于较大的服务器，这可能会导致频繁的磁盘写入从而引起性能下降。
 #
 
 KillDetailedLogging.enabled = true
 KillDetailedLogging.dumpSize = 10
 
 DeathDetailedLogging.enabled = true
-DeathetailedLogging.dumpSize = 10
+DeathDetailedLogging.dumpSize = 10
 
 ZoneAreaDetailedLogging.enabled = true
 ZoneAreaDetailedLogging.dumpSize = 10
